@@ -1,0 +1,50 @@
+body {
+  background-color: grey;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#Carte_visite {
+  background-color: white;
+  border: 2px solid black;
+  position:relative;
+  width:500px;
+  height:300px;
+  z-index:1;
+}
+
+#Image {
+  background:url("https://i293.photobucket.com/albums/mm65/andromsal/Saint%20Seiya/Dorados/Sagitario/Juni-Anker-Aioros.jpg") no-repeat center center;
+  background-size: contain;
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  width: 150px;
+  height: 150px;
+  z-index:2;
+}
+
+#Titre {
+  position: absolute;
+  color: blue;
+  top: 120px;
+  left: 220px;
+  z-index: 3;
+}
+
+#Description {
+  position: absolute;
+  top: 160px;
+  left: 220px;
+  z-index: 4;
+}
+
+#Création {
+  position: absolute;
+  top: 260px;
+  left: 100px;
+  z-index: 5;
+}
